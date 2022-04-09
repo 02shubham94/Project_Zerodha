@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testClasses.FacebookSignup">
+        <methods>
+          <include name="enterURL"/>
+          <include name="closeBrowser"/>
+          <include name="signUpTest01"/>
+          <include name="signUpTest02"/>
+          <include name="signUpTest05"/>
+          <include name="launchBrowser"/>
+          <include name="signUpTest03"/>
+          <include name="refreshPage"/>
+          <include name="signUpTest04"/>
+        </methods>
+      </class> <!-- testClasses.FacebookSignup -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
