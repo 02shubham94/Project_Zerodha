@@ -2,89 +2,89 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-07T17:28:31 IST" name="Default suite" finished-at="2022-04-07T17:29:07 IST" duration-ms="35738">
+  <suite started-at="2022-04-10T12:47:03 IST" name="Failed suite [Default suite]" finished-at="2022-04-10T12:47:38 IST" duration-ms="34895">
     <groups>
       <group name="female">
-        <method signature="FacebookSignup.signUpTest02()[pri:2, instance:testClasses.FacebookSignup@661972b0]" name="signUpTest02" class="testClasses.FacebookSignup"/>
-        <method signature="FacebookSignup.signUpTest04()[pri:4, instance:testClasses.FacebookSignup@661972b0]" name="signUpTest04" class="testClasses.FacebookSignup"/>
+        <method signature="FacebookSignup.signUpTest02()[pri:2, instance:testClasses.FacebookSignup@2e005c4b]" name="signUpTest02" class="testClasses.FacebookSignup"/>
+        <method signature="FacebookSignup.signUpTest04()[pri:4, instance:testClasses.FacebookSignup@2e005c4b]" name="signUpTest04" class="testClasses.FacebookSignup"/>
       </group> <!-- female -->
       <group name="male">
-        <method signature="FacebookSignup.signUpTest01()[pri:1, instance:testClasses.FacebookSignup@661972b0]" name="signUpTest01" class="testClasses.FacebookSignup"/>
-        <method signature="FacebookSignup.signUpTest03()[pri:3, instance:testClasses.FacebookSignup@661972b0]" name="signUpTest03" class="testClasses.FacebookSignup"/>
-        <method signature="FacebookSignup.signUpTest05()[pri:5, instance:testClasses.FacebookSignup@661972b0]" name="signUpTest05" class="testClasses.FacebookSignup"/>
+        <method signature="FacebookSignup.signUpTest01()[pri:1, instance:testClasses.FacebookSignup@2e005c4b]" name="signUpTest01" class="testClasses.FacebookSignup"/>
+        <method signature="FacebookSignup.signUpTest03()[pri:3, instance:testClasses.FacebookSignup@2e005c4b]" name="signUpTest03" class="testClasses.FacebookSignup"/>
+        <method signature="FacebookSignup.signUpTest05()[pri:5, instance:testClasses.FacebookSignup@2e005c4b]" name="signUpTest05" class="testClasses.FacebookSignup"/>
       </group> <!-- male -->
     </groups>
-    <test started-at="2022-04-07T17:28:31 IST" name="Default test" finished-at="2022-04-07T17:29:07 IST" duration-ms="35738">
+    <test started-at="2022-04-10T12:47:03 IST" name="Default test(failed)" finished-at="2022-04-10T12:47:38 IST" duration-ms="34895">
       <class name="testClasses.FacebookSignup">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testClasses.FacebookSignup@661972b0]" started-at="2022-04-07T17:28:31 IST" name="launchBrowser" finished-at="2022-04-07T17:28:36 IST" duration-ms="5153" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testClasses.FacebookSignup@2e005c4b]" started-at="2022-04-10T12:47:03 IST" name="launchBrowser" finished-at="2022-04-10T12:47:08 IST" duration-ms="4942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="enterURL()[pri:0, instance:testClasses.FacebookSignup@661972b0]" started-at="2022-04-07T17:28:36 IST" name="enterURL" finished-at="2022-04-07T17:28:40 IST" duration-ms="3789" status="PASS">
+        <test-method is-config="true" signature="enterURL()[pri:0, instance:testClasses.FacebookSignup@2e005c4b]" started-at="2022-04-10T12:47:08 IST" name="enterURL" finished-at="2022-04-10T12:47:13 IST" duration-ms="4764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterURL -->
-        <test-method signature="signUpTest01()[pri:1, instance:testClasses.FacebookSignup@661972b0]" started-at="2022-04-07T17:28:40 IST" name="signUpTest01" finished-at="2022-04-07T17:28:45 IST" duration-ms="5014" status="PASS">
+        <test-method signature="signUpTest01()[pri:1, instance:testClasses.FacebookSignup@2e005c4b]" started-at="2022-04-10T12:47:13 IST" name="signUpTest01" finished-at="2022-04-10T12:47:18 IST" duration-ms="5670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpTest01 -->
-        <test-method is-config="true" signature="refreshPage()[pri:0, instance:testClasses.FacebookSignup@661972b0]" started-at="2022-04-07T17:28:45 IST" name="refreshPage" finished-at="2022-04-07T17:28:45 IST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:testClasses.FacebookSignup@2e005c4b]" started-at="2022-04-10T12:47:18 IST" name="refreshPage" finished-at="2022-04-10T12:47:18 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshPage -->
-        <test-method is-config="true" signature="enterURL()[pri:0, instance:testClasses.FacebookSignup@661972b0]" started-at="2022-04-07T17:28:45 IST" name="enterURL" finished-at="2022-04-07T17:28:46 IST" duration-ms="1070" status="PASS">
+        <test-method is-config="true" signature="enterURL()[pri:0, instance:testClasses.FacebookSignup@2e005c4b]" started-at="2022-04-10T12:47:18 IST" name="enterURL" finished-at="2022-04-10T12:47:21 IST" duration-ms="2425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterURL -->
-        <test-method signature="signUpTest02()[pri:2, instance:testClasses.FacebookSignup@661972b0]" started-at="2022-04-07T17:28:46 IST" name="signUpTest02" finished-at="2022-04-07T17:28:49 IST" duration-ms="2847" status="PASS">
+        <test-method signature="signUpTest02()[pri:2, instance:testClasses.FacebookSignup@2e005c4b]" started-at="2022-04-10T12:47:21 IST" name="signUpTest02" finished-at="2022-04-10T12:47:24 IST" duration-ms="2830" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpTest02 -->
-        <test-method is-config="true" signature="refreshPage()[pri:0, instance:testClasses.FacebookSignup@661972b0]" started-at="2022-04-07T17:28:49 IST" name="refreshPage" finished-at="2022-04-07T17:28:49 IST" duration-ms="54" status="PASS">
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:testClasses.FacebookSignup@2e005c4b]" started-at="2022-04-10T12:47:24 IST" name="refreshPage" finished-at="2022-04-10T12:47:24 IST" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshPage -->
-        <test-method is-config="true" signature="enterURL()[pri:0, instance:testClasses.FacebookSignup@661972b0]" started-at="2022-04-07T17:28:49 IST" name="enterURL" finished-at="2022-04-07T17:28:52 IST" duration-ms="2937" status="PASS">
+        <test-method is-config="true" signature="enterURL()[pri:0, instance:testClasses.FacebookSignup@2e005c4b]" started-at="2022-04-10T12:47:24 IST" name="enterURL" finished-at="2022-04-10T12:47:26 IST" duration-ms="2542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterURL -->
-        <test-method signature="signUpTest03()[pri:3, instance:testClasses.FacebookSignup@661972b0]" started-at="2022-04-07T17:28:52 IST" name="signUpTest03" finished-at="2022-04-07T17:28:55 IST" duration-ms="2756" status="PASS">
+        <test-method signature="signUpTest03()[pri:3, instance:testClasses.FacebookSignup@2e005c4b]" started-at="2022-04-10T12:47:26 IST" name="signUpTest03" finished-at="2022-04-10T12:47:28 IST" duration-ms="2191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpTest03 -->
-        <test-method is-config="true" signature="refreshPage()[pri:0, instance:testClasses.FacebookSignup@661972b0]" started-at="2022-04-07T17:28:55 IST" name="refreshPage" finished-at="2022-04-07T17:28:55 IST" duration-ms="49" status="PASS">
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:testClasses.FacebookSignup@2e005c4b]" started-at="2022-04-10T12:47:28 IST" name="refreshPage" finished-at="2022-04-10T12:47:29 IST" duration-ms="834" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshPage -->
-        <test-method is-config="true" signature="enterURL()[pri:0, instance:testClasses.FacebookSignup@661972b0]" started-at="2022-04-07T17:28:55 IST" name="enterURL" finished-at="2022-04-07T17:28:58 IST" duration-ms="2788" status="PASS">
+        <test-method is-config="true" signature="enterURL()[pri:0, instance:testClasses.FacebookSignup@2e005c4b]" started-at="2022-04-10T12:47:29 IST" name="enterURL" finished-at="2022-04-10T12:47:31 IST" duration-ms="1616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterURL -->
-        <test-method signature="signUpTest04()[pri:4, instance:testClasses.FacebookSignup@661972b0]" started-at="2022-04-07T17:28:58 IST" name="signUpTest04" finished-at="2022-04-07T17:29:00 IST" duration-ms="2142" status="PASS">
+        <test-method signature="signUpTest04()[pri:4, instance:testClasses.FacebookSignup@2e005c4b]" started-at="2022-04-10T12:47:31 IST" name="signUpTest04" finished-at="2022-04-10T12:47:33 IST" duration-ms="2410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpTest04 -->
-        <test-method is-config="true" signature="refreshPage()[pri:0, instance:testClasses.FacebookSignup@661972b0]" started-at="2022-04-07T17:29:00 IST" name="refreshPage" finished-at="2022-04-07T17:29:00 IST" duration-ms="56" status="PASS">
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:testClasses.FacebookSignup@2e005c4b]" started-at="2022-04-10T12:47:33 IST" name="refreshPage" finished-at="2022-04-10T12:47:33 IST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshPage -->
-        <test-method is-config="true" signature="enterURL()[pri:0, instance:testClasses.FacebookSignup@661972b0]" started-at="2022-04-07T17:29:00 IST" name="enterURL" finished-at="2022-04-07T17:29:02 IST" duration-ms="2508" status="PASS">
+        <test-method is-config="true" signature="enterURL()[pri:0, instance:testClasses.FacebookSignup@2e005c4b]" started-at="2022-04-10T12:47:33 IST" name="enterURL" finished-at="2022-04-10T12:47:35 IST" duration-ms="2016" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterURL -->
-        <test-method signature="signUpTest05()[pri:5, instance:testClasses.FacebookSignup@661972b0]" started-at="2022-04-07T17:29:02 IST" name="signUpTest05" finished-at="2022-04-07T17:29:05 IST" duration-ms="2852" status="PASS">
+        <test-method signature="signUpTest05()[pri:5, instance:testClasses.FacebookSignup@2e005c4b]" started-at="2022-04-10T12:47:35 IST" name="signUpTest05" finished-at="2022-04-10T12:47:37 IST" duration-ms="1865" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpTest05 -->
-        <test-method is-config="true" signature="refreshPage()[pri:0, instance:testClasses.FacebookSignup@661972b0]" started-at="2022-04-07T17:29:05 IST" name="refreshPage" finished-at="2022-04-07T17:29:06 IST" duration-ms="981" status="PASS">
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:testClasses.FacebookSignup@2e005c4b]" started-at="2022-04-10T12:47:37 IST" name="refreshPage" finished-at="2022-04-10T12:47:37 IST" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshPage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.FacebookSignup@661972b0]" started-at="2022-04-07T17:29:06 IST" name="closeBrowser" finished-at="2022-04-07T17:29:07 IST" duration-ms="633" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.FacebookSignup@2e005c4b]" started-at="2022-04-10T12:47:37 IST" name="closeBrowser" finished-at="2022-04-10T12:47:38 IST" duration-ms="528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testClasses.FacebookSignup -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
 </testng-results>
